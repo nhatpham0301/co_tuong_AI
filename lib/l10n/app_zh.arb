@@ -81,5 +81,7 @@
   "levelIntermediate": "中级",
   "levelMaster": "大师",
   "gameSound": "游戏声音",
-  "gameVolume": "游戏音量"
+  "gameVolume": "游戏音量",
+
+  "liveMatch": "实时对局"
 }

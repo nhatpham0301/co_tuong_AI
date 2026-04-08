@@ -220,4 +220,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get gameVolume => 'Âm Lượng';
+
+  @override
+  String get liveMatch => 'Trận Đấu Trực Tiếp';
 }

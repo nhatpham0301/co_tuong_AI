@@ -525,6 +525,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Game Volume'**
   String get gameVolume;
+
+  /// No description provided for @liveMatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Live Matches'**
+  String get liveMatch;
 }
 
 class _AppLocalizationsDelegate

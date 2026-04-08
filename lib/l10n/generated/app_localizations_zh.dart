@@ -220,4 +220,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get gameVolume => '游戏音量';
+
+  @override
+  String get liveMatch => '实时对局';
 }

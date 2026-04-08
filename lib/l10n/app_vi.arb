@@ -81,5 +81,7 @@
   "levelIntermediate": "Trung Cấp",
   "levelMaster": "Cao Thủ",
   "gameSound": "Âm Thanh",
-  "gameVolume": "Âm Lượng"
+  "gameVolume": "Âm Lượng",
+
+  "liveMatch": "Trận Đấu Trực Tiếp"
 }

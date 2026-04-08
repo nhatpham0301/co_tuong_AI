@@ -220,4 +220,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get gameVolume => 'Game Volume';
+
+  @override
+  String get liveMatch => 'Live Matches';
 }

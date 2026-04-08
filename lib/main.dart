@@ -7,8 +7,7 @@ import 'package:window_manager/window_manager.dart';
 import 'global.dart';
 import 'l10n/generated/app_localizations.dart';
 import 'models/game_manager.dart';
-import 'widgets/game_wrapper.dart';
-import 'game_board.dart';
+import 'router.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,15 +37,14 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: '',
+    return MaterialApp.router(
+      routerConfig: appRouter,
       onGenerateTitle: (BuildContext context) {
         if (isWindow) {
           windowManager.setTitle(context.l10n.appTitle);
         }
         return context.l10n.appTitle;
       },
-      navigatorKey: MyDialog.navigatorKey,
       localizationsDelegates: const [
         AppLocalizations.delegate,
         ShirneDialogLocalizations.delegate,
@@ -65,10 +63,6 @@ class MainApp extends StatelessWidget {
       highContrastDarkTheme: AppTheme.createTheme(
         isDark: true,
         isHighContrast: true,
-      ),
-      home: const GameWrapper(
-        isMain: true,
-        child: GameBoard(),
       ),
     );
   }

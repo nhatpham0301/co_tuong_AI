@@ -81,5 +81,7 @@
   "levelIntermediate": "Intermediate",
   "levelMaster": "Master",
   "gameSound": "Game Sound",
-  "gameVolume": "Game Volume"
+  "gameVolume": "Game Volume",
+
+  "liveMatch": "Live Matches"
 }

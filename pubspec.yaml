@@ -16,6 +16,7 @@ dependencies:
   cchess_engine: ^0.0.4
   engine:
     path: plugins/engine
+  go_router: ^14.0.0
 
   intl:
   cupertino_icons:
